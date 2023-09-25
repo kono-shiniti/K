@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)file:///C:/Users/j91021156/Desktop/index/internet%20search.html -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file:///C:/Users/j91021156/Desktop/index/internet%20search_files/internet%20search.css">
+    <link rel="icon" href="file:///C:/Users/j91021156/Desktop/index/icon/icon.ico">
+    <title>Internet Search</title>
+    <style>
+        .aside-logo {
+    float: right;
+    border: 2px solid green;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(19, 10, 68);
+}
+.header-logo {
+    text-align: center;
+    font-size: 50px;
+}
+
+aside {
+    background-color: khaki;
+    float: right;
+    height: 800px;
+    width: 300px;
+}
+main {
+    width: 1000px;
+    height: 800px;
+    background-color: aquamarine;
+    
+}
+.main-logo {
+    text-align: center;
+}
+footer {
+    width: 1250px;
+    height: 200px;
+    background-color: slategray;
+    float: right;
+    
+}
+.font-size, li {
+    font-size: 20px;
+}
+
+    </style>
+ 
+</head>
+<body>
+   
+    <p id="Clock1" style="display: inline"> 2023.09.22 (金). 14:14:25 </p>
+    <div class="clock"><script type="text/javascript">
+        function fsChangeLarge(){
+    var fs = document.getElementById("Clock1");
+    fs.style.fontSize = "24px";}
+    setInterval('showClock1()',1000);
+    function showClock1() {
+    var DWs = new Array('(日).','(月).','(火).','(水).','(木).','(金).','(土).');
+    var Now = new Date();
+    var YY = Now.getYear();
+    if (YY < 2000) { YY += 1900; }
+    var MM = set0( Now.getMonth() + 1 );
+    var DD = set0( Now.getDate() );
+    var DW = DWs[ Now.getDay() ];
+    var hh = set0( Now.getHours() );
+    var mm = set0( Now.getMinutes() );
+    var ss = set0( Now.getSeconds() );
+    var RTime1 = ' ' + YY + '.' + MM + '.' + DD + ' ' + DW + ' ' + hh + ':' + mm + ':' + ss + ' ';
+    document.getElementById("Clock1").innerHTML = RTime1;
+    }
+    function set0(num) {
+    var ret;
+    if( num < 10 ) { ret = "0" + num; }
+    else { ret = num; }
+    return ret;
+    }
+    document.getElementById("input").value;
+    </script></div>
+    <header>
+        <h3 class="header-logo"><span style="background: linear-gradient(transparent 70%, #ffc0cb 100%);">孤野信一のHOMEサイト</span><p></p></h3>
+    </header>
+   <aside>
+        <div class="search">
+            <h3 class="aside-logo">孤野信一のGoogleエンジン</h3>
+            <form id="form" action="https://google.co.jp/search" method="get">
+            <input id="input" type="search" name="search" placeholder="キーワードを入力">
+            <input type="submit" name="submit" value="検索">
+           </form>
+            <a href="file:///C:/Users/j91021156/Desktop/index/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.html"><p class="font-size">お知らせ</p></a>
+        </div>   
+   </aside>  
+   <main>
+    <h3 class="main-logo">サイト集</h3>
+    <h4>
+        <ol>
+        <li><a href="file:///C:/Users/j91021156/Desktop/index/game%20or%20app/tetris.html">テトリス</a></li>
+        <li><a href="file:///C:/Users/j91021156/Desktop/index/game%20or%20app/%E3%82%B9%E3%83%8D%E3%83%BC%E3%82%AF.html">マージスネーク</a></li>
+        <li><a href="https://x2download.app/ja18">Youtubeサイト</a></li>
+        <li><a href="https://kaihatuiinkai.jp/nesopuro2/mall/">ショッピング特設サイト</a></li>
+        <li><a href="file:///C:/Users/j91021156/Desktop/index/%E8%AA%B2%E9%A1%8C/%E6%8E%A2%E7%A9%B6.html">探究</a></li>
+        <li><a href="file:///C:/Users/j91021156/Desktop/index/%E4%BF%9D%E8%82%B2%E5%9C%92%E4%BA%8B%E5%89%8D/%E4%BF%9D%E8%82%B2%E5%9C%92%E4%BA%8B%E5%89%8D.html">事前指導内容</a></li>
+        <li><a href="file:///C:/Users/j91021156/Desktop/index/internet%20%E5%88%A9%E7%94%A8%E3%83%AB%E3%83%BC%E3%83%AB/internet%E3%83%AB%E3%83%BC%E3%83%AB.html">インターネットの利用ルール</a></li>
+        <li><a href="file:///C:/Users/j91021156/Desktop/index/RPG/RPG.html">RPGゲーム</a></li>
+        <li><a href="http://www.creative-forest.com/javascript/js_game_pg/prep/html5_game_pg/html5_game_pg.html">ゲームサイト(引用)</a></li>
+        <li><a href="file:///C:/Users/j91021156/Desktop/index/%E3%82%BF%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0/%E3%82%BF%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0.html">タイピング(バグあり)</a></li>
+        
+        </ol>
+    </h4>
+   </main>
+   <footer>
+        <a href="file:///C:/Users/j91021156/Desktop/index/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9Bform/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9Bform.html"><p>お問い合わせ</p></a>
+   </footer>
+   
+</body></html>
